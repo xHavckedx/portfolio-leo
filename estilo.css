@@ -103,7 +103,7 @@ html{
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes a:hover{
+.redes a:hover{
     background-color: #4169E1;
 }
 .sobremi{
@@ -124,12 +124,11 @@ html{
 }
 .sobremi .contenido-seccion a{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .sobremi .contenido-seccion a:hover{
     color: #4169E1;
-    margin: 0 15px;
-    padding: 3px;
+    font-size: large;
     transition: .5s;
     text-decoration: none;
 }
@@ -286,7 +285,7 @@ html{
 }
 @keyframes aws-gcp-azure {
     0%{width: 0%;}
-    100%{width: 83%;}
+    100%{width: 99%;}
 }
 
 .skills .skill .cicd{
@@ -304,7 +303,7 @@ html{
 }
 @keyframes qa {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .iac{
@@ -331,7 +330,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 97%;}
 }
 
 .skills .skill .trabajo{
@@ -340,7 +339,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 87%;}
+    100%{width: 96%;}
 }
 
 .skills .skill .creatividad{
